@@ -18,12 +18,12 @@
 
         1. Copy and paste dmb folder into your mission folder.
         2. Add this simple line to your description.ext:
-            ``#include "dmb\dialog_def.hpp"``
+            `#include "dmb\dialog_def.hpp"`
         3. Add this simple line to your initPlayerLocal.sqf:
-           ``[] execVM "dmb\dmb_addAction.sqf";``
+           `[] execVM "dmb\dmb_addAction.sqf";`
         4. If any of the mentioned files don't exist, create them and repeat step 2 & 3.
         6. In the mission editor, select the characters you want to grant access to the DM board and type:
-            ``this setVariable ["dmb_DM", true];``
+            `this setVariable ["dmb_DM", true];`
         into the init box.
 
 ### Settings
@@ -49,12 +49,12 @@
 
         1. Copiar y pegar la carpeta dmb en tu carpeta de misión.
         2. Agregar esta línea a tu description.ext:
-            ``#include "dmb\dialog_def.hpp"``
+            `#include "dmb\dialog_def.hpp"`
         3. Agregar esta línea a tu initPlayerLocal.sqf:
-            ``[] execVM "dmb\dmb_addAction.sqf";``
+            `[] execVM "dmb\dmb_addAction.sqf";`
         4. Si los archivos mencionados no existen, créalos y repite los pasos 2 y 3.
         6. En el editor de Eden, selecciona al personaje a quién quieres otorgarle permisos de DM y escribe:
-            ``this setVariable ["dmb_DM", true];``
+            `this setVariable ["dmb_DM", true];`
         en la caja de init.
 
 ### Opciones
