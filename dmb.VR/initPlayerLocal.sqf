@@ -1,0 +1,1 @@
+[] execVM "dmb\dmb_addAction.sqf";
